@@ -11,41 +11,41 @@ from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
 #cl = LineClient()
-cl = LineClient(authToken='ExGGo9IlpjQmyIER69G2.qr5zqRaj72xYzhhusepz4G.FQumQZsmyjyyjbsUiAW5zx0uth/6rYZoxDoUKYlkF3U=')
+cl = LineClient(authToken='EMr1rHYqEDtozFWaXqc5.I7AJcrfysUIaxrqdad1azq.S1cVjeIGI+dZJuyfcE6pazjOkZa9Re/fdI8CQ4iqw98=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='ExRhSF8sdRuRpkAOmTo4.+SoeyhaZWgFvNhO8hApIPa.51v16/WVNxnE0lr4P+KxTBtpaza0kKJhbVgHKXM4oXk=')
+ki = LineClient(authToken='EMFMmEWM4FqezViS7wS8.+Es3tzQcdLmg7lYXW5GFIa.eQQeQ/3wgq/3fsNCYPu2vJSBe5lu/AuIOBWr7odq4/g=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient()
-kk = LineClient(authToken='ExkegvCI9iAhg2Bb97nc./PU0Cxthkp5tnb0K29DmVa.ZnXG91zGkXqsrRO46/rByXxB/bT1tqCE27jtTGsnJbM=')
+kk = LineClient(authToken='EMyDrhS4aWT6bXDBrqO2.Hqt3usa6GThPGq1W+eE7OG.20RLy6t2dtEbkjE+EjfAuyLGJ7QSuEZlz4FvpI+c5eU=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 #kc = LineClient()
-kc = LineClient(authToken='ExOdxLVMTstrd1TCoGce.1AqixFjrwZ6VnERXRMw2FG.SjWjj01FKMZzR1qRDa84MqeU2i+HuleCczR5bBOS9HY=')
+kc = LineClient(authToken='EMKjIjoNnuHn2qVBHxge.DPb0VWc+lxIi+i5T4WVCBG.L1qbR95eE4dyr0lKeE791zy/eAjMgacvrl3+ySW0Nxk=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 #sw = LineClient()
-sw = LineClient(authToken='ExzXeZn6QUZt4lbcPxC0.T25R3cEZfL7+29xeX9KCya.AG73mmpk0E72jDKUtj75HtMrWwUYa2g9xbdrca5l8kQ=')
+sw = LineClient(authToken='ENh9LRoXrTtRzagEjJx1.6dg+OADJcZqj0Eao0Y02iq.HShwzMCaF91alV8QO+NsEvq2SzPCBr57o/pGUa/75dk=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u411e5942b009ef65f26471d44843d9e2"]
-owner = ["u411e5942b009ef65f26471d44843d9e2"]
-admin = ["u411e5942b009ef65f26471d44843d9e2","ua12c189883d5d8443edef1efbb4b172d"]
-staff = ["u411e5942b009ef65f26471d44843d9e2"]
+creator = ["ub6f9d53713c5869f0d78e71febe13837"]
+owner = ["ub6f9d53713c5869f0d78e71febe13837"]
+admin = ["ub6f9d53713c5869f0d78e71febe13837"]
+staff = ["ub6f9d53713c5869f0d78e71febe13837"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -132,7 +132,7 @@ wait = {
     "selfbot":True,
     "mention":"SINI KAK GABUNG CHAT AJA .. KALAU NGINTIP TERUS KU DO'AIN BISULAN 3 TAHUN LHO.. HEHEHE😊",
     "Respontag":"woyy.. tag mulu njir.. gua cipok beranak lu !! 😁😁😁😁😁",
-    "welcome":"Selamat datang & semoga betah kakak peseg",
+    "welcome":"123",
     "comment":"Like like & like by REY SEBASTIAN",
     "message":"Terimakasih sudah add saya \n kalau ada perlu bisa chat \n menerima jasa buat bot .. thanks 😃",
     }
