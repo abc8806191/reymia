@@ -11,31 +11,31 @@ from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
 #cl = LineClient()
-cl = LineClient(authToken='ENf9KcZGUpTT1Fk5Wbpc.3eFmkgPriPKsRz7omolaVa.w3DZYdqMI95zSUvVmysgd/6Xr85RaGz5jjo4IIirL2I=')
+cl = LineClient(authToken="ENf9KcZGUpTT1Fk5Wbpc.3eFmkgPriPKsRz7omolaVa.w3DZYdqMI95zSUvVmysgd/6Xr85RaGz5jjo4IIirL2I=")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='EMFMmEWM4FqezViS7wS8.+Es3tzQcdLmg7lYXW5GFIa.eQQeQ/3wgq/3fsNCYPu2vJSBe5lu/AuIOBWr7odq4/g=')
+ki = LineClient(authToken="EMFMmEWM4FqezViS7wS8.+Es3tzQcdLmg7lYXW5GFIa.eQQeQ/3wgq/3fsNCYPu2vJSBe5lu/AuIOBWr7odq4/g=")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient()
-kk = LineClient(authToken='EMyDrhS4aWT6bXDBrqO2.Hqt3usa6GThPGq1W+eE7OG.20RLy6t2dtEbkjE+EjfAuyLGJ7QSuEZlz4FvpI+c5eU=')
+kk = LineClient(authToken="EMyDrhS4aWT6bXDBrqO2.Hqt3usa6GThPGq1W+eE7OG.20RLy6t2dtEbkjE+EjfAuyLGJ7QSuEZlz4FvpI+c5eU=")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 #kc = LineClient()
-kc = LineClient(authToken='EMKjIjoNnuHn2qVBHxge.DPb0VWc+lxIi+i5T4WVCBG.L1qbR95eE4dyr0lKeE791zy/eAjMgacvrl3+ySW0Nxk=')
+kc = LineClient(authToken="EMKjIjoNnuHn2qVBHxge.DPb0VWc+lxIi+i5T4WVCBG.L1qbR95eE4dyr0lKeE791zy/eAjMgacvrl3+ySW0Nxk=")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 #sw = LineClient()
-sw = LineClient(authToken='ENh9LRoXrTtRzagEjJx1.6dg+OADJcZqj0Eao0Y02iq.HShwzMCaF91alV8QO+NsEvq2SzPCBr57o/pGUa/75dk=')
+sw = LineClient(authToken="ENh9LRoXrTtRzagEjJx1.6dg+OADJcZqj0Eao0Y02iq.HShwzMCaF91alV8QO+NsEvq2SzPCBr57o/pGUa/75dk=")
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
